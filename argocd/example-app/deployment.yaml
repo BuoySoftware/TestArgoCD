@@ -18,3 +18,10 @@ spec:
         # image: liquidreply/argocd-example-app:1
         ports:
         - containerPort: 5000
+      tolerations:
+      - key: "node_type"
+        effect: "NoExecute"
+        value: "worker"
+      - key: "provisioner"
+        value: "buoy-pltf-use1-provisioner"
+        effect: "NoExecute"
