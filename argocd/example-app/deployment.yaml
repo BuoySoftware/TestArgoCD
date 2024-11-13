@@ -15,9 +15,8 @@ spec:
       containers:
       - name: argocd-example-app
         image: public.ecr.aws/g7p6k1i5/buoysoftware/example-app:latest
-        # image: liquidreply/argocd-example-app:1
         ports:
-        - containerPort: 5000
+        - containerPort: 3000
       tolerations:
       - key: "node_type"
         effect: "NoExecute"
