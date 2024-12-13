@@ -1,2 +1,1 @@
-# LFS256-code
-Code for DevOps and Workflow Management with Argo (LFS256)
+# Test ArgoCD manifests for R&D and testing ArgoCD
